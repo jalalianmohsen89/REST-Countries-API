@@ -11,7 +11,7 @@
     "test": "vitest",
     "dev": "quasar dev",
     "build": "quasar build",
-    "deploy": "push-dir --dir=dist/spa --remote=gh-pages --branch=gh-pages"
+    "deploy": "quasar build && gh-pages -d dist"
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",
