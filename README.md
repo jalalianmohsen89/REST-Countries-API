@@ -28,7 +28,7 @@ REST Countries Explorer is a web application that allows users to view country d
 
 ## Credits
 
-This project was inspired by the [Frontend Mentor Mohsen Jalalian.
+This project was inspired by the [Frontend Mentor Mohsen Jalalian].
 
 ## License
 
