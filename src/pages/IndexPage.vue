@@ -42,7 +42,7 @@ watch(country, (val) => {
 const getDate = async () => {
   try {
     list.value = countriesList.value = (_.orderBy((await api.get(queryParam.value)).data, 'population', 'desc')).filter((item: any, index: any) => {
-      if (index < 20)
+      // if (index < 20)
         return item
     });
     // store.setCountries(list.value)
